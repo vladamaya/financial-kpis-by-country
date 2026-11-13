@@ -46,6 +46,8 @@ Ver [`proyecto3_kpis_financieros.sql`](./proyecto3_kpis_financieros.sql) — con
 | France | 7 | $924,316.93 | $527,797.14 | $2,208,000.00 | $396,519.79 | 42.90% | 17.96% |
 | Canada | 6 | $710,205.18 | $392,325.91 | $1,824,000.00 | $317,879.27 | 44.76% | 17.43% |
 
+![Margen y ROI de campaña por país](images/margen_roi_por_pais.png)
+
 Verificación: el margen y el ROI recalculados con la consulta coinciden con la hoja de resultados en los 6 países. Nota: `beneficio_bruto` sale como entero por el cast `::integer` de la consulta, por eso puede diferir en centavos respecto a la hoja.
 
 ## Insights (formato CFI)
